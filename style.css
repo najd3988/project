@@ -1,0 +1,153 @@
+
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+}
+
+.navbar h2 {
+    color: red;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: lightgray;
+    font-size: 18px;
+}
+
+img {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.movie-card {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.movie-card h4 {
+    color: white;
+    margin-top: 15px;
+}
+
+.movie-card p {
+    color: lightgray;
+}
+
+
+#movieDetails {
+    background-color: #222;
+    padding: 20px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+
+.calculator {
+    background-color: #1c1c1c;
+    color: white;
+    width: 350px;
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 25px;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.calculator h2 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.ticket-price {
+    font-size: 18px;
+    color: white;
+}
+
+.calculator label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #333;
+    color: white;
+    border: 1px solid gray;
+}
+
+.calculator button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: darkred;
+}
+
+#result {
+    color: red;
+    margin-top: 20px;
+}
+
+.movie-card {
+    background-color: #1c1c1c;
+    border: 2px solid red;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 100%;
+}
+.movie-card img {
+    max-width: 100%;
+    height: 350px;
+    border-radius: 8px;
+}
+.website-table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #222;
+    color: white;
+}
+
+.website-table th {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+.website-table td {
+    border: 1px solid red;
+    padding: 15px;
+    text-align: center;
+}

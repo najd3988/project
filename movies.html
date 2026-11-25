@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MOVIE WORLD - Movies</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../src/css/style.css">
+
+<link rel="stylesheet"> 
+</head>
+
+
+
+<body>
+    <div class="navbar">
+
+        <h2>MOVIE WORLD</h2>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="movies.html">Movies</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+   
+<div class="movie-lists">
+
+    <h2>NOW SHOWING</h2>
+
+    <ul>
+        <li>Frozen</li>
+        <li>Inside Out</li>
+        <li>The Lion King</li>
+        <li>Spider-Man</li>
+    </ul>
+
+    <h2>COMING SOON</h2>
+
+    <ol>
+        <li>Frozen 3</li>
+        <li>Incredibles 3</li>
+        <li>Moana</li>
+        <li>Ratatouille</li>
+    </ol>
+
+</div>
+    <div class="container mt-5">
+
+        <h1 class="text-center">EXPLORE MOVIES</h1>
+
+        <p class="text-center">
+            Find your favorite movies .
+        </p>
+
+        <div class="row mt-4">
+
+      
+
+            <div class="col-md-3 mb-4">
+                <div class="movie-card">
+
+                    <img src="../src/imgs/frozen.avif" class="img-fluid" alt="Frozen">
+
+                    <h4>Frozen</h4>
+
+                    <p>Animation | 2013</p>
+
+                    
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3 mb-4">
+                <div class="movie-card">
+
+                    <img src="../src/imgs/Inside Out.jpg" class="img-fluid" alt="Inside Out">
+
+                    <h4>Inside Out</h4>
+
+                    <p>Animation | 2015</p>
+
+                  
+
+                </div>
+            </div>
+
+          
+
+            <div class="col-md-3 mb-4">
+                <div class="movie-card">
+
+                    <img src="../src/imgs/The Lion King.webp" class="img-fluid"
+                    alt="The Lion King">
+
+                    <h4>The Lion King</h4>
+
+                    <p>Adventure | 2019</p>
+
+
+                </div>
+            </div>
+
+         
+
+            <div class="col-md-3 mb-4">
+                <div class="movie-card">
+
+                    <img src="../src/imgs/Spider-Man.webp" class="img-fluid"
+                    alt="Spider Man">
+
+                    <h4>Spider-Man</h4>
+
+                    <p>Action | 2021</p>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        
+
+        <div id="movieDetails" class="mt-5">
+
+        </div>
+
+    </div>
+
+    <script src="../src/js/script.js"></script> 
+
+<div class="calculator">
+
+    <h2>BOOK YOUR MOVIE TICKETS</h2>
+
+    <p class="ticket-price">Ticket Price: 35 SAR</p>
+
+    <label>Number of Tickets:</label>
+
+    <input type="number" id="tickets"
+    min="1" placeholder="Enter number of tickets">
+
+    <button onclick="calculateTotal()">
+        Calculate Total
+    </button>
+
+    <h3 id="result">Total Price: 0 SAR</h3>
+
+
+</div>
+</body>
+</html>
